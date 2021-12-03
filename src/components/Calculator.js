@@ -9,7 +9,7 @@ export default class Calculator extends Component {
   }
 
   render() {
-    const clicked =(btn) => {
+    const clicked = (btn) => {
       const value = btn.target.innerText;
       const { total, next, operation } = calculate(this.state, value);
       this.setState({ total, next, operation });
