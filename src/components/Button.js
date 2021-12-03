@@ -1,15 +1,15 @@
-import PropTypes from 'prop-types'
+import PropTypes from 'prop-types';
 
-export const Button = ({ text, color, className }) => {
-  return (
+const Button = ({ text, color, className }) => (
     <>
-      <button className={className} style={{backgroundColor: color}}>{text}</button>
+      <button type='button' className={className} style={ {backgroundColor: color} }>{text}</button>
     </>
-  )
-}
+);
 
 Button.propTypes = {
   text: PropTypes.string.isRequired,
   color: PropTypes.string.isRequired,
-  className: PropTypes.string.isRequired
-}
+  className: PropTypes.string.isRequired,
+};
+
+export default Button;

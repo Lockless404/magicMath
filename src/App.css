@@ -12,15 +12,20 @@
   grid-template-rows: 16.5% 16.5% 16.5% 16.5% 16.5% 16.5%;
 }
 
-.calcDisplay{
+.calcDisplay {
   background-color: grey;
+  text-align: right;
+  font-size: 1.6rem;
   width: 100%;
-  height: 4rem;
-  grid-row:0 / span 1 ;
+  grid-row: 0 / span 1;
   grid-column: 1 / span 4;
   margin-bottom: 0;
 }
 
-.button0 {
+.button {
+  border-radius: 0;
+}
+
+.O {
   grid-column: 1 / span 2;
 }
