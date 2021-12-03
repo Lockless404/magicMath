@@ -1,9 +1,9 @@
 import PropTypes from 'prop-types';
 
 const Button = ({ text, color, className }) => (
-    <>
-      <button type='button' className={className} style={ {backgroundColor: color} }>{text}</button>
-    </>
+  <>
+    <button type="button" className={className} style={{ backgroundColor: color }}>{text}</button>
+  </>
 );
 
 Button.propTypes = {
