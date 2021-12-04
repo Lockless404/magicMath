@@ -2,58 +2,44 @@
 
 # Project Name
 
-> One paragraph statement about the project.
+> "Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
+  - Make simple calculations.
+  - Read a random math-related quote.
+
+  By building this application, I will get my first experiance of React.
 
 ![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
-
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- Html, CSS, Javascript
+- React
+- Webpack, Jest, Gitflow
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://compassionate-beaver-6b1347.netlify.app/)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+To get a local copy up and running in your machine:
 
+    1.Clone this repo or download the zip folder:
 
-To get a local copy up and running follow these simple example steps.
+      git clone https://github.com/Lockless404/dotaCapstone.git
 
-### Prerequisites
+    2.Navigate to the location of the folder in your machine:
 
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+      you@your-Pc-name:~$ cd <folder>
 
 ## Authors
 
-👤 **Author1**
+👤 **Hamza Tarar**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [Hamza Tarar](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Lockless404](https://github.com/Lockless404)
+- Twitter: [@hamza_tarar10](https://twitter.com/hamza_tarar10)
+- LinkedIn: [Hamza Tarar](https://www.linkedin.com/in/hamza-tarar-639685216/)
 
 ## 🤝 Contributing
 

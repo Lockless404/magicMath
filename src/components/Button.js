@@ -4,7 +4,7 @@ const Button = ({
   text, color, className, onClick,
 }) => (
   <>
-    <button type="button" className={className} style={{ backgroundColor: color }} onClick={onClick}>
+    <button type="button" className={className} style={{ backgroundColor: color }} onClick={() => onClick(text)}>
       {text}
     </button>
   </>
