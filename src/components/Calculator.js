@@ -29,7 +29,7 @@ const Calculator = () => {
   return (
     <div>
       <h1>Lets Do Some Math!</h1>
-      <div className='calc'>
+      <div className="calc">
         <input className="calcDisplay" placeholder="0" type="text" maxLength="0" value={display()} onChange={() => ''} />
         <Button onClick={clicked} className="button AC" text="AC" color="lightgrey" />
         <Button onClick={clicked} className="button +-" text="+/-" color="lightgrey" />
